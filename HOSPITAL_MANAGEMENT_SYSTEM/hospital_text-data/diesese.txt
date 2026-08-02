@@ -1,0 +1,48 @@
+SPECIALIZATION          |          COMMON DISEASES
+-----------------------------------------------------------------
+GENERAL PHYSICIAN       |     FEVER, COLD, COUGH,
+                        |     HEADACHE, VIRAL FEVER
+------------------------------------------------------------------
+PEDIATRICIAN            |     CHILD FEVER, FLU,
+                        |     VACCINATION, EAR INFECTION
+------------------------------------------------------------------
+CARDIOLOGIST            |     HIGH BLOOD PRESSURE,
+                        |     HEART PROBLEM, CHEST PAIN
+------------------------------------------------------------------
+GYNECOLOGIST            |     PREGNANCY CHECKUP, PCOS,
+                        |     IRREGULAR PERIODS
+------------------------------------------------------------------
+ORTHOPEDIC SURGEON      |     BONE FRACTURE, JOINT PAIN,
+                        |     BACK PAIN
+------------------------------------------------------------------
+NEUROLOGIST             |     MIGRAINE, SEIZURES,
+                        |     STROKE, NERVE PROBLEMS
+------------------------------------------------------------------
+DERMATOLOGIST           |     PIMPLES (ACNE), SKIN ALLERGY,
+                        |     RASHES, ITCHING
+------------------------------------------------------------------
+ENT SPECIALIST          |     EAR PAIN, SINUS,
+                        |     SORE THROAT, HEARING PROBLEMS
+------------------------------------------------------------------
+OPHTHALMOLOGIST         |     EYE INFECTION, CATARACT,
+                        |     VISION PROBLEMS
+------------------------------------------------------------------
+PULMONOLOGIST           |     ASTHMA, PNEUMONIA,
+                        |     TUBERCULOSIS (TB)
+------------------------------------------------------------------
+GASTROENTEROLOGIST      |     ACIDITY, STOMACH ULCER,
+                        |     STOMACH PAIN, LIVER PROBLEMS
+------------------------------------------------------------------
+ENDOCRINOLOGIST         |     DIABETES, THYROID,
+                        |     HORMONE PROBLEMS
+------------------------------------------------------------------
+UROLOGIST               |     KIDNEY STONES,
+                        |     URINE INFECTION (UTI),
+                        |     PROSTATE PROBLEMS
+------------------------------------------------------------------
+PSYCHIATRIST            |     STRESS, ANXIETY,
+                        |     DEPRESSION, SLEEP PROBLEMS
+------------------------------------------------------------------
+DENTIST                 |     TOOTH PAIN, CAVITY,
+                        |     GUM PROBLEMS, ROOT CANAL
+------------------------------------------------------------------
