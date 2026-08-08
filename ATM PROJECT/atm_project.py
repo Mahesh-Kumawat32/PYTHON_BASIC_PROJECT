@@ -1,7 +1,6 @@
 #ATM PROJECT
-
 import random
-import datetime
+from datetime import date,timedelta
 amount_to_withdrawl = None
 amount_to_deposit = None
 #DATA OF CUSOTMERS ALREADY STORED AND ENTER BY USERS*******************************************************************************
@@ -35,7 +34,7 @@ def create_account(name,permanent_address,current_address,amount_to_first_deposi
     customer_data['1']["IFSC CODE"] = ifsc_code
     customer_data['1']["BRANCH NAME"] = branch_location
     customer_data['1']["BRANCH CITY"] = branch_city
-    customer_data['1']["DATE OF AC CREATE"] = datetime.date.today()
+    customer_data['1']["DATE OF AC CREATE"] = date.today()
     customer_data['1']["CURRENT ADDRESS"] = customer_current_address
     customer_data['1']["PERMANENT ADDRESS"] = customer_permanent_address
     customer_data['1']["PREVIOUS BALANCE"] = customer_first_deposit
@@ -128,7 +127,7 @@ def transaction_history(ac_no):
     for i in range(2,10):
         if customer_data[str(i)]['AC/NO']==ac_no:
             cnt = cnt +1
-            transaction_details["DATE"]=datetime.date.today()
+            transaction_details["DATE"]=date.today()
             transaction_details["CREDITED AMOUNT"] = amount_to_deposit
             transaction_details["WITHDRAWL AMOUNT"] = amount_to_withdrawl
         else:
