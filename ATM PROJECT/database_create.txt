@@ -1,0 +1,31 @@
+#CREATE DATABASE
+CREATE DATABASE bank;
+USE bank;
+
+#CUSTOMER TABLE
+CREATE TABLE customers(
+ac_no int primary key,
+cst_first_name varchar(20) not null,
+cst_second_name varchar(20) not null,
+full_name varchar(40) not null,
+mobile_num int(10) not null,
+current_address varchar(200) not null,
+permanent_addresss varchar(200) not null,
+current_balance int not null,
+date_of_create varchar(20) not null,
+refer_id int(4) unique,
+pin id(4) unique
+);
+SELECT * FROM customers;
+
+
+#BANK TABLE
+CREATE TABLE bank_info(
+bankname varchar(30) not null,
+branch_name varchar(10) not null,
+branch_code int primary key,
+branch_ifsc varchar(11) not null,
+bank_address varchar(100) not ,
+bank_email varchar(20) not null
+);
+SELECT * FROM bank_info;
